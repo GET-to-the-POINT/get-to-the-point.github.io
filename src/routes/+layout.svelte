@@ -1,15 +1,13 @@
 <script>
 	import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css';
-	import "../app.css";
+	import '../app.css';
 
 	const { children } = $props();
 </script>
 
 <header>
 	<h1>
-		<a href="/">
-			GET to the POINT
-		</a>
+		<a href="/"> GET to the POINT </a>
 	</h1>
 
 	<nav>
