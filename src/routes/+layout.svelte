@@ -7,10 +7,10 @@
 	const { children } = $props();
 </script>
 
-<div class="flex min-h-dvh flex-col bg-background text-foreground">
-	<Nav />
-	<main class="m-auto">
-		{@render children()}
-	</main>
-	<Footer />
-</div>
+<Nav />
+
+<main class="m-auto">
+	{@render children()}
+</main>
+
+<Footer />
