@@ -1,6 +1,5 @@
 <script>
     import ours from '$lib/assets/ours.png?enhanced';
-
 </script>
 
 <h1>We are
