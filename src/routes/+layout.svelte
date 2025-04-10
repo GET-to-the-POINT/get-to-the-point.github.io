@@ -1,21 +1,16 @@
 <script>
 	import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css';
 	import '../app.css';
+	import Nav from '$lib/components/nav/Nav.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 
 	const { children } = $props();
 </script>
 
-<header>
-	<h1>
-		<a href="/"> GET to the POINT </a>
-	</h1>
-
-	<nav>
-		<ul>
-			<li><a href="/about">About</a></li>
-			<li><a href="/contact">Contact</a></li>
-		</ul>
-	</nav>
-</header>
-
-{@render children()}
+<div class="flex min-h-dvh flex-col bg-background text-foreground">
+	<Nav />
+	<main class="m-auto">
+		{@render children()}
+	</main>
+	<Footer />
+</div>
