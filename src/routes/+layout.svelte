@@ -9,7 +9,7 @@
 
 <Nav />
 
-<main class="m-auto">
+<main>
 	{@render children()}
 </main>
 

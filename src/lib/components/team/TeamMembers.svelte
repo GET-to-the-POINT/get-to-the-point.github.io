@@ -34,7 +34,7 @@
 	];
 </script>
 
-<section class="py-20 px-8" id="team">
+<section class="py-16 px-8" id="team">
 	<div class="m-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
 		{#each teamMembers as member}
 			<TeamMemberCard {member} />
