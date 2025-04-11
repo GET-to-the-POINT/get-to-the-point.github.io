@@ -2,3 +2,15 @@
 
 @plugin '@tailwindcss/typography';
 @plugin '@tailwindcss/forms';
+
+@layer utilities {
+    .card-enter {
+        @apply opacity-100 transition-opacity duration-1000 delay-[var(--delay)] ease-in;
+    }
+
+    @starting-style {
+        .card-enter {
+            @apply opacity-0;
+        }
+    }
+}

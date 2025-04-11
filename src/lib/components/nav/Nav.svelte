@@ -1,11 +1,13 @@
-<script lang="ts">
+<script>
+	import { page } from '$app/state';
+
 	import { HouseIcon } from '@lucide/svelte';
 </script>
 
 <header class="p-4 flex items-center justify-between sticky left-0 right-0 top-0 z-50 border-b py-4 bg-background/80 backdrop-blur-sm shadow-sm">
 	<h1>
 		<a href="/">
-			GET to the POINT
+			{page.data.title ?? 'GET to the POINT'}
 		</a>
 	</h1>
 

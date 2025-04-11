@@ -1,13 +1,14 @@
 <script>
 	import { cn } from "$lib/utils.js";
 
-	let { ref = $bindable(null), class: className, children, ...restProps } = $props();
+	let { as="div", ref = $bindable(null), class: className, children, ...restProps } = $props();
 </script>
 
-<div
+<svelte:element
+	this={as}
 	bind:this={ref}
 	class={cn("bg-card text-card-foreground rounded-lg border shadow-sm", className)}
 	{...restProps}
 >
 	{@render children?.()}
-</div>
+</svelte:element>
