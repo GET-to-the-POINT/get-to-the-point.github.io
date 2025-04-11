@@ -2,8 +2,6 @@
 	const year = new Date().getFullYear();
 </script>
 
-<footer class="border-t bg-muted py-6">
-	<div class="m-auto container ">
-		<p class="text-sm text-muted-foreground">© {year} GET to the POINT. All rights reserved.</p>
-	</div>
+<footer class="border-t border-b py-8 px-4">
+		<p class="text-sm">© {year} GET to the POINT. All rights reserved.</p>
 </footer>
