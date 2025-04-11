@@ -4,7 +4,6 @@
 	import wooyeon from '$lib/assets/wooyeon.png';
 	import hyeri from '$lib/assets/hyeri.png';
 	import yurim from '$lib/assets/yurim.png';
-	import { blur } from 'svelte/transition';
 
 	const teamMembers = [
 		{
@@ -42,7 +41,7 @@
 	<h2 class="mb-8 text-2xl after:content-['팀장_괴롭힌_순_🚑'] after:text-sm after:text-gray-500">팀원</h2>
 	<div class="m-auto flex gap-8 flex-wrap">
 		{#each teamMembers as member, i (member.name)}
-			<TeamMemberCard {member} style={`--delay: ${500 * i}ms`} />
+			<TeamMemberCard as="a" {member} style={`--delay: ${500 * i}ms`} />
 		{/each}
 	</div>
 </section>
