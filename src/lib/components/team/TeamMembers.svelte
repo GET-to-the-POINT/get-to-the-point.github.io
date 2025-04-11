@@ -39,7 +39,7 @@
 
 <div class="m-auto flex gap-8 flex-wrap">
 	{#each teamMembers as member, i (member.name)}
-		<TeamMemberCard as="a" {member} style={`--delay: ${500 * i}ms`}
+		<TeamMemberCard {member} style={`--delay: ${500 * i}ms`}
 		class="grow basis-xs"
 		/>
 	{/each}

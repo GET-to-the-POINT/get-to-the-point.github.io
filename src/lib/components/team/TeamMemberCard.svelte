@@ -1,6 +1,7 @@
 <script>
 	import { Card, CardContent, CardHeader } from '$lib/components/ui/card';
 	import { Avatar, AvatarFallback, AvatarImage } from '$lib/components/ui/avatar';
+	import { GithubIcon } from '@lucide/svelte';
 
 	/**
 	 * @typedef {Object} TeamMember
@@ -20,6 +21,8 @@
 	class="card-enter overflow-hidden hover:shadow-2xl transition-shadow duration-300 ease-in-out"
 	{...rest}
 >
+		<a href={member.githubUrl} class="absolute ml-4 mt-4 rounded-full border-gray-500 border p-4 hover:bg-gray-500"><GithubIcon class="h-5 w-5 text-gray-400" />
+		</a>
 	<CardHeader class="flex flex-col items-center gap-4 pt-6">
 		<Avatar class="h-24 w-24">
 			<AvatarImage alt={member.name} src={member.image} />
