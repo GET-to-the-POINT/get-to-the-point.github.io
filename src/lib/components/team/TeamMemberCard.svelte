@@ -17,7 +17,7 @@
 <Card
 	{as}
 	href={member.githubUrl}
-	class="card-enter w-sm max-w-2xl overflow-hidden hover:shadow-2xl transition-shadow duration-300 ease-in-out"
+	class="card-enter overflow-hidden hover:shadow-2xl transition-shadow duration-300 ease-in-out"
 	{...rest}
 >
 	<CardHeader class="flex flex-col items-center gap-4 pt-6">

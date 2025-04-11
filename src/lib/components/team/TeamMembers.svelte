@@ -37,11 +37,10 @@
 	];
 </script>
 
-<section class="py-16 px-8">
-	<h2 class="mb-8 text-2xl after:content-['팀장_괴롭힌_순_🚑'] after:text-sm after:text-gray-500">팀원</h2>
-	<div class="m-auto flex gap-8 flex-wrap">
-		{#each teamMembers as member, i (member.name)}
-			<TeamMemberCard as="a" {member} style={`--delay: ${500 * i}ms`} />
-		{/each}
-	</div>
-</section>
+<div class="m-auto flex gap-8 flex-wrap">
+	{#each teamMembers as member, i (member.name)}
+		<TeamMemberCard as="a" {member} style={`--delay: ${500 * i}ms`}
+		class="grow basis-xs"
+		/>
+	{/each}
+</div>
