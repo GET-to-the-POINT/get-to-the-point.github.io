@@ -9,7 +9,7 @@
 
 <Header />
 
-<main class="min-h-100dvh">
+<main class="min-h-screen">
 	{@render children()}
 </main>
 
