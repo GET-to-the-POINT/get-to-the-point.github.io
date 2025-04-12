@@ -34,7 +34,7 @@
 	<header class="[&_a]:p-4 [&_a]:block [&_a]:hover:bg-white/75 [&_a]:transition-all [&_a]:duration-300 [&_a]:ease-in-out
 	 overflow-hidden flex justify-between border backdrop-blur cursor-pointer">
 		<h1 class="flex-1">
-			<a href="/static" class="content-center">
+			<a href="/" class="content-center">
 				{page.data.title ?? 'GET to the POINT'}
 			</a>
 		</h1>
@@ -42,7 +42,7 @@
 		<nav>
 			<ul class="flex h-full [&>*]:border-l">
 				<li>
-					<a href="/static">
+					<a href="/">
 						<HouseIcon class="inline-block mr-2 h-4 w-4" />
 						Home
 					</a>

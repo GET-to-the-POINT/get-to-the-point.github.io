@@ -1,6 +1,5 @@
 <script>
-	import { Card } from "$lib/components/ui/card";
-	import { fade, slide } from "svelte/transition";
+	import { Card } from '$lib/components/ui/card';
 
 	const { date } = $props();
 
@@ -14,12 +13,12 @@
 
 <div class="relative flex gap-8">
 	<!-- Content area -->
-	<div class="flex-1" transition:slide>
+	<div class="flex-1">
 		<div class="mb-2 text-sm text-muted-foreground">
 			{formattedDate}
 		</div>
 		<!-- Wrap Card with a div to apply transition -->
-		<div transition:fade>
+		<div>
 			<Card>
 				<div class="p-4">
 					<!-- Content area placeholder -->
