@@ -4,13 +4,13 @@
 @plugin '@tailwindcss/forms';
 
 @layer utilities {
-    .card-enter {
-        @apply opacity-100 transition-opacity duration-1000 delay-[var(--delay)] ease-in;
-    }
+	.card-enter {
+		@apply opacity-100 transition-opacity delay-[var(--delay)] duration-1000 ease-in;
+	}
 
-    @starting-style {
-        .card-enter {
-            @apply opacity-0;
-        }
-    }
+	@starting-style {
+		.card-enter {
+			@apply opacity-0;
+		}
+	}
 }

@@ -4,6 +4,6 @@
 	let { ref = $bindable(null) } = $props();
 </script>
 
-<footer bind:this={ref} class="backdrop-blur sticky bottom-0 border-t border-b py-2 px-4">
-	<p class="text-sm text-right">© {year} GET to the POINT. All rights reserved.</p>
+<footer bind:this={ref} class="sticky bottom-0 border-t border-b px-4 py-2 backdrop-blur">
+	<p class="text-right text-sm">© {year} GET to the POINT. All rights reserved.</p>
 </footer>

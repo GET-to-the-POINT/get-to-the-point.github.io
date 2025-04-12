@@ -18,11 +18,14 @@
 <Card
 	{as}
 	href={member.githubUrl}
-	class="card-enter overflow-hidden hover:shadow-2xl transition-shadow duration-300 ease-in-out"
+	class="card-enter overflow-hidden transition-shadow duration-300 ease-in-out hover:shadow-2xl"
 	{...rest}
 >
-		<a href={member.githubUrl} class="absolute ml-4 mt-4 rounded-full border-gray-500 border p-4 hover:bg-gray-500"><GithubIcon class="h-5 w-5 text-gray-400" />
-		</a>
+	<a
+		href={member.githubUrl}
+		class="absolute mt-4 ml-4 rounded-full border border-gray-500 p-4 hover:bg-gray-500"
+		><GithubIcon class="h-5 w-5 text-gray-400" />
+	</a>
 	<CardHeader class="flex flex-col items-center gap-4 pt-6">
 		<Avatar class="h-24 w-24">
 			<AvatarImage alt={member.name} src={member.image} />
@@ -30,10 +33,10 @@
 		</Avatar>
 		<div class="text-center">
 			<h3 class="text-xl font-semibold">{member.name}</h3>
-			<p class="text-sm text-muted-foreground">{member.role}</p>
+			<p class="text-muted-foreground text-sm">{member.role}</p>
 		</div>
 	</CardHeader>
 	<CardContent>
-		<p class="text-center text-muted-foreground">{member.bio}</p>
+		<p class="text-muted-foreground text-center">{member.bio}</p>
 	</CardContent>
 </Card>

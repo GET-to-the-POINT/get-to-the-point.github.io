@@ -37,10 +37,8 @@
 	];
 </script>
 
-<div class="m-auto flex gap-8 flex-wrap">
+<div class="m-auto flex flex-wrap gap-8">
 	{#each teamMembers as member, i (member.name)}
-		<TeamMemberCard {member} style={`--delay: ${500 * i}ms`}
-		class="grow basis-xs"
-		/>
+		<TeamMemberCard {member} style={`--delay: ${500 * i}ms`} class="grow basis-xs" />
 	{/each}
 </div>
