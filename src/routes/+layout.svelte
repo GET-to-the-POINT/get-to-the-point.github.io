@@ -1,15 +1,15 @@
 <script>
 	import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css';
 	import '../app.css';
-	import Nav from '$lib/components/nav/Nav.svelte';
-	import Footer from '$lib/components/Footer.svelte';
+	import Header from '$lib/components/layout/Header.svelte';
+	import Footer from '$lib/components/layout/Footer.svelte';
 
 	const { children } = $props();
 </script>
 
-<Nav />
+<Header />
 
-<main>
+<main class="min-h-100dvh">
 	{@render children()}
 </main>
 
