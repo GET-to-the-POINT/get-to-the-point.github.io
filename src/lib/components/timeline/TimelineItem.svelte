@@ -17,7 +17,9 @@
 
 <div class="[&>div:first-child]:mb-2">
 	<div>
-		<Card class="[&_h1]:font-extrabold overflow-hidden [&>*]:px-4 [&>*:first-child]:pt-4 [&>*:last-child]:pb-4">
+		<Card
+			class="overflow-hidden [&_h1]:font-extrabold [&>*]:px-4 [&>*:first-child]:pt-4 [&>*:last-child]:pb-4"
+		>
 			<h1>
 				{meta.title}
 			</h1>

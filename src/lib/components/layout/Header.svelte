@@ -1,38 +1,50 @@
 <script>
 	import { page } from '$app/state';
+	import { deLocalizeHref } from '$lib/paraglide/runtime.js';
 
 	import { ContactIcon, HouseIcon, ScrollTextIcon } from '@lucide/svelte';
 </script>
 
 <header
-	class="sticky top-0 z-50 flex cursor-pointer justify-between border-y
-	 border-gray-200 bg-white transition-colors duration-500 ease-in-out select-none
-	 [&_a]:block [&_a]:h-full
-	 [&_a]:content-center [&_a]:border-l [&_a]:border-gray-200
-	 [&_a]:p-4 [&_a]:font-bold [&_a]:transition-all [&_a]:duration-300 [&_a]:ease-in-out [&_a]:hover:bg-black [&_a]:hover:text-white"
+	class="[&_li]:semi-bold sticky top-0 z-50 flex justify-between
+	 border-y border-gray-200 bg-white transition-colors duration-500 ease-in-out
+	 select-none [&_:not(h1)_a]:border-l [&_a]:block
+	 [&_a]:h-full [&_a]:cursor-pointer [&_a]:content-center
+	 [&_a]:border-gray-200
+	 [&_a]:p-4 [&_a]:transition-all
+	 [&_a]:duration-500 [&_a]:ease-in-out [&_a]:hover:bg-black
+	 [&_a]:hover:text-white
+	 [&_a[aria-current='page']]:bg-black
+	 [&_a[aria-current='page']]:text-white [&_h1]:flex-1 [&_h1]:text-3xl [&_h1]:font-extrabold [&_ul]:flex [&_ul]:h-full"
 >
-	<h1 class="flex-1">
-		<a class="content-center text-3xl font-extrabold" href="/">
+	<h1>
+		<a href="/">
 			{page.data.title ?? 'GET to the POINT'}
 		</a>
 	</h1>
 
 	<nav>
-		<ul class="flex h-full">
+		<ul>
 			<li>
-				<a href="/">
+				<a href="/" aria-current={deLocalizeHref(page.url.pathname) === '/' ? 'page' : undefined}>
 					<HouseIcon class="mr-2 inline-block h-4 w-4" />
 					Home
 				</a>
 			</li>
 			<li>
-				<a href="/contact">
+				<a
+					href="/contact"
+					aria-current={deLocalizeHref(page.url.pathname) === '/contact' ? 'page' : undefined}
+				>
 					<ContactIcon class="mr-2 inline-block h-4 w-4" />
 					Contact</a
 				>
 			</li>
 			<li>
-				<a href="/backstage">
+				<a
+					href="/backstage"
+					aria-current={deLocalizeHref(page.url.pathname) === '/backstage' ? 'page' : undefined}
+				>
 					<ScrollTextIcon class="mr-2 inline-block h-4 w-4" />
 					backstage</a
 				>
