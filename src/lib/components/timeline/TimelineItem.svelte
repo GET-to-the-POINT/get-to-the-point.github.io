@@ -1,7 +1,7 @@
 <script>
 	import { Card } from '$lib/components/ui/card';
 
-	const { date } = $props();
+	const { date, value } = $props();
 
 	// Format date for display
 	const formattedDate = new Date(date).toLocaleDateString('ko-KR', {
@@ -22,7 +22,9 @@
 			<Card>
 				<div class="p-4">
 					<!-- Content area placeholder -->
-					<div class="bg-muted/30 h-24 rounded-md" />
+					<div class="bg-muted/30 h-24 rounded-md" >
+						{@html value}
+					</div>
 				</div>
 			</Card>
 		</div>

@@ -7,6 +7,7 @@ import { enhancedImages } from '@sveltejs/enhanced-img';
 import { fileURLToPath } from 'node:url';
 import tailwindcss from '@tailwindcss/vite';
 import { storybookTest } from '@storybook/experimental-addon-test/vitest-plugin';
+import vitePluginXiyo from './src/lib/plugin/vitePluginXiyo.js';
 
 const dirname =
 	typeof __dirname !== 'undefined' ? __dirname : path.dirname(fileURLToPath(import.meta.url));
@@ -16,6 +17,7 @@ export default defineConfig({
 		tailwindcss(),
 		enhancedImages(),
 		sveltekit(),
+		vitePluginXiyo(),
 		paraglideVitePlugin({
 			project: './project.inlang',
 			outdir: './src/lib/paraglide'

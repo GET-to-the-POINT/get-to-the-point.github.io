@@ -1,5 +1,7 @@
 <script>
 	import Timeline from '$lib/components/timeline/Timeline.svelte';
+
+	const { data } = $props();
 </script>
 
 <section class="min-h-screen px-8 py-16">
@@ -9,6 +11,6 @@
 		Backstage
 	</h2>
 	<div class="mx-auto">
-		<Timeline />
+		<Timeline posts={data.category.allPosts} />
 	</div>
 </section>
