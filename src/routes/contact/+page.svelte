@@ -3,7 +3,7 @@
 	import { draw, blur } from 'svelte/transition';
 </script>
 
-<section class="items-center justify-center px-8 py-16">
+<section class="min-h-screen items-center justify-center px-8 py-16">
 	<h2 class="mb-8 text-4xl font-bold">Contact</h2>
 	<div class="min-h-2xl content-center text-center">
 		<svg
