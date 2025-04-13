@@ -1,5 +1,5 @@
 {
-    "sonarCloudOrganization": "get-to-the-point",
-    "projectKey": "GET-to-the-POINT_get-to-the-point.github.io",
-    "region": "EU"
+	"sonarCloudOrganization": "get-to-the-point",
+	"projectKey": "GET-to-the-POINT_get-to-the-point.github.io",
+	"region": "EU"
 }

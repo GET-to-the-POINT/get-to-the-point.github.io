@@ -1,193 +1,195 @@
 {
-  "main": {
-    "id": "e58e2de42bff7051",
-    "type": "split",
-    "children": [
-      {
-        "id": "ecfacc9b99a10588",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6b22de550996220c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "static/posts/backstage/first-week.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "first-week"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "vertical"
-  },
-  "left": {
-    "id": "791e687f590147f3",
-    "type": "split",
-    "children": [
-      {
-        "id": "8de1b1a99c6019f2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c1c014a140cf2e82",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
-            }
-          },
-          {
-            "id": "abb04afeef686b3a",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "검색"
-            }
-          },
-          {
-            "id": "10dce65b07ad1400",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "북마크"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
-  },
-  "right": {
-    "id": "2358a3d360caceff",
-    "type": "split",
-    "children": [
-      {
-        "id": "4e6b3fb3b5ce419c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3410a1f0b9a1624d",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "static/posts/backstage/first-week.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "first-week 의 백링크"
-            }
-          },
-          {
-            "id": "f2440389e541aa35",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "static/posts/backstage/first-week.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "first-week 의 나가는 링크"
-            }
-          },
-          {
-            "id": "96d37bcb6fab8265",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "태그"
-            }
-          },
-          {
-            "id": "494c6612db17c8f5",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "static/posts/backstage/first-week.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "first-week 의 개요"
-            }
-          },
-          {
-            "id": "38201857ccf8b12e",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          }
-        ],
-        "currentTab": 4
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
-  },
-  "left-ribbon": {
-    "hiddenItems": {
-      "switcher:빠른 전환기 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-git:Open Git source control": false
-    }
-  },
-  "active": "6b22de550996220c",
-  "lastOpenFiles": [
-    "static/posts/backstage/first-week.md",
-    "static/posts/backstage/hello.md",
-    "static/posts/backstage/hello2.md",
-    "static/posts/backstage/hello3.md",
-    "static/favicon.png"
-  ]
+	"main": {
+		"id": "e58e2de42bff7051",
+		"type": "split",
+		"children": [
+			{
+				"id": "ecfacc9b99a10588",
+				"type": "tabs",
+				"children": [
+					{
+						"id": "6b22de550996220c",
+						"type": "leaf",
+						"state": {
+							"type": "markdown",
+							"state": {
+								"file": "static/posts/backstage/first-week.md",
+								"mode": "source",
+								"source": false
+							},
+							"icon": "lucide-file",
+							"title": "first-week"
+						}
+					}
+				]
+			}
+		],
+		"direction": "vertical"
+	},
+	"left": {
+		"id": "791e687f590147f3",
+		"type": "split",
+		"children": [
+			{
+				"id": "8de1b1a99c6019f2",
+				"type": "tabs",
+				"children": [
+					{
+						"id": "c1c014a140cf2e82",
+						"type": "leaf",
+						"state": {
+							"type": "file-explorer",
+							"state": {
+								"sortOrder": "alphabetical",
+								"autoReveal": false
+							},
+							"icon": "lucide-folder-closed",
+							"title": "파일 탐색기"
+						}
+					},
+					{
+						"id": "abb04afeef686b3a",
+						"type": "leaf",
+						"state": {
+							"type": "search",
+							"state": {
+								"query": "",
+								"matchingCase": false,
+								"explainSearch": false,
+								"collapseAll": false,
+								"extraContext": false,
+								"sortOrder": "alphabetical"
+							},
+							"icon": "lucide-search",
+							"title": "검색"
+						}
+					},
+					{
+						"id": "10dce65b07ad1400",
+						"type": "leaf",
+						"state": {
+							"type": "bookmarks",
+							"state": {},
+							"icon": "lucide-bookmark",
+							"title": "북마크"
+						}
+					}
+				]
+			}
+		],
+		"direction": "horizontal",
+		"width": 300,
+		"collapsed": true
+	},
+	"right": {
+		"id": "2358a3d360caceff",
+		"type": "split",
+		"children": [
+			{
+				"id": "4e6b3fb3b5ce419c",
+				"type": "tabs",
+				"children": [
+					{
+						"id": "3410a1f0b9a1624d",
+						"type": "leaf",
+						"state": {
+							"type": "backlink",
+							"state": {
+								"file": "static/posts/backstage/first-week.md",
+								"collapseAll": false,
+								"extraContext": false,
+								"sortOrder": "alphabetical",
+								"showSearch": false,
+								"searchQuery": "",
+								"backlinkCollapsed": false,
+								"unlinkedCollapsed": true
+							},
+							"icon": "links-coming-in",
+							"title": "first-week 의 백링크"
+						}
+					},
+					{
+						"id": "f2440389e541aa35",
+						"type": "leaf",
+						"state": {
+							"type": "outgoing-link",
+							"state": {
+								"file": "static/posts/backstage/first-week.md",
+								"linksCollapsed": false,
+								"unlinkedCollapsed": true
+							},
+							"icon": "links-going-out",
+							"title": "first-week 의 나가는 링크"
+						}
+					},
+					{
+						"id": "96d37bcb6fab8265",
+						"type": "leaf",
+						"state": {
+							"type": "tag",
+							"state": {
+								"sortOrder": "frequency",
+								"useHierarchy": true,
+								"showSearch": false,
+								"searchQuery": ""
+							},
+							"icon": "lucide-tags",
+							"title": "태그"
+						}
+					},
+					{
+						"id": "494c6612db17c8f5",
+						"type": "leaf",
+						"state": {
+							"type": "outline",
+							"state": {
+								"file": "static/posts/backstage/first-week.md",
+								"followCursor": false,
+								"showSearch": false,
+								"searchQuery": ""
+							},
+							"icon": "lucide-list",
+							"title": "first-week 의 개요"
+						}
+					},
+					{
+						"id": "38201857ccf8b12e",
+						"type": "leaf",
+						"state": {
+							"type": "git-view",
+							"state": {},
+							"icon": "git-pull-request",
+							"title": "Source Control"
+						}
+					}
+				],
+				"currentTab": 4
+			}
+		],
+		"direction": "horizontal",
+		"width": 300,
+		"collapsed": true
+	},
+	"left-ribbon": {
+		"hiddenItems": {
+			"switcher:빠른 전환기 열기": false,
+			"graph:그래프 뷰 열기": false,
+			"canvas:새 캔버스 만들기": false,
+			"daily-notes:오늘의 일일 노트 열기": false,
+			"templates:템플릿 삽입": false,
+			"command-palette:명령어 팔레트 열기": false,
+			"table-editor-obsidian:Advanced Tables Toolbar": false,
+			"obsidian-git:Open Git source control": false
+		}
+	},
+	"active": "6b22de550996220c",
+	"lastOpenFiles": [
+		"pnpm-lock.yaml.3937384195",
+		"_tmp_5707_8fececcec8be2ea7a230f89179d63087",
+		"static/posts/backstage/first-week.md",
+		"static/posts/backstage/hello.md",
+		"static/posts/backstage/hello2.md",
+		"static/posts/backstage/hello3.md",
+		"static/favicon.png"
+	]
 }

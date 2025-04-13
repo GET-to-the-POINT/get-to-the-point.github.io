@@ -7,6 +7,6 @@ export async function load({ url }) {
 	const reversedPosts = category.allPosts.slice().reverse();
 
 	return {
-		posts: reversedPosts,
+		posts: reversedPosts
 	};
 }
