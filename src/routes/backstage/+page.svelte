@@ -11,6 +11,6 @@
 		Backstage
 	</h2>
 	<div class="mx-auto">
-		<Timeline posts={data.category.allPosts} />
+		<Timeline posts={data.posts} />
 	</div>
 </section>

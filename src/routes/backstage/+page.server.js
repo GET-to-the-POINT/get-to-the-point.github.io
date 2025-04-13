@@ -4,8 +4,9 @@ import Category from '$lib/post/Category.js';
 export async function load({ url }) {
 	const pathname = '/posts' + url.pathname;
 	const category = await Category.getCategory(pathname)?.toSerialize();
+	const reversedPosts = category.allPosts.slice().reverse();
 
 	return {
-		category,
+		posts: reversedPosts,
 	};
 }
