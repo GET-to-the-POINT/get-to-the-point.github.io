@@ -3,18 +3,6 @@
 @plugin '@tailwindcss/typography';
 @plugin '@tailwindcss/forms';
 
-@layer utilities {
-	.card-enter {
-		@apply opacity-100 transition-opacity delay-[var(--delay)] duration-1000 ease-in;
-	}
-
-	@starting-style {
-		.card-enter {
-			@apply opacity-0;
-		}
-	}
-}
-
 body {
 	font-family:
 		'Pretendard Variable',
