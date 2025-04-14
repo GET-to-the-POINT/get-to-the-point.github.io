@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "static/posts/backstage/Test2.md",
+                "file": "static/posts/backstage/first-week.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test2"
+              "title": "first-week"
             }
           }
         ]
@@ -182,15 +182,22 @@
   },
   "active": "6b22de550996220c",
   "lastOpenFiles": [
-    "static/posts/backstage/first-week.md",
     "static/posts/backstage/Test2.md",
+    "node_modules/@inlang",
+    "node_modules/@shikijs",
+    "node_modules/@lucide",
+    "node_modules/@vitest",
+    "node_modules/@testing-library",
+    "node_modules/@tailwindcss",
+    "node_modules/@sveltejs",
+    "node_modules/@storybook",
+    "node_modules/@playwright",
+    "node_modules/@chromatic-com",
+    "static/posts/backstage/first-week.md",
     "static/members/hyeri.png",
     "static/members/yurim.png",
     "static/members/wooyeon.png",
     "static/members/taehui.png",
-    "static/members",
-    "pnpm-lock.yaml.3937384195",
-    "_tmp_5707_8fececcec8be2ea7a230f89179d63087",
     "static/posts/backstage/hello.md",
     "static/posts/backstage/hello2.md",
     "static/posts/backstage/hello3.md",
