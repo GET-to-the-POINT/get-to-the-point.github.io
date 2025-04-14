@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "static/posts/backstage/first-week.md",
+                "file": "static/posts/backstage/새로운 첫걸음.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "first-week"
+              "title": "새로운 첫걸음"
             }
           }
         ]
@@ -192,8 +192,8 @@
   },
   "active": "6b22de550996220c",
   "lastOpenFiles": [
-    "static/posts/backstage/새로운 첫걸음.md",
     "static/posts/backstage/first-week.md",
+    "static/posts/backstage/새로운 첫걸음.md",
     "static/favicon.png",
     "static/posts/backstage/Test2.md",
     "node_modules/@inlang",
