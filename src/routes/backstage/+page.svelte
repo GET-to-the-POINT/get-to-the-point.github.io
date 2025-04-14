@@ -4,7 +4,7 @@
 	const { data } = $props();
 </script>
 
--screen<section class="min-h px-8 py-16">
+<section class="min-h-screen px-8 py-16">
 	<h2
 		class="mb-8 text-4xl font-bold after:block after:text-sm after:text-gray-500 after:content-['오늘도_열심히_했나요?🤔']"
 	>
