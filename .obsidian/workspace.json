@@ -194,6 +194,7 @@
   "lastOpenFiles": [
     "static/posts/backstage/first-week.md",
     "static/posts/backstage/새로운 첫걸음.md",
+    "static/favicon.png",
     "static/posts/backstage/Test2.md",
     "node_modules/@inlang",
     "node_modules/@shikijs",
@@ -211,7 +212,6 @@
     "static/members/taehui.png",
     "static/posts/backstage/hello.md",
     "static/posts/backstage/hello2.md",
-    "static/posts/backstage/hello3.md",
-    "static/favicon.png"
+    "static/posts/backstage/hello3.md"
   ]
 }
