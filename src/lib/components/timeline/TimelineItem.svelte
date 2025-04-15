@@ -4,7 +4,11 @@
 	import { datetime } from '$lib/paraglide/registry.js';
 	import { Calendar1, CalendarClock } from '@lucide/svelte';
 
-	const { meta, gitLog, value } = $props();
+	let { meta, gitLog, value } = $props();
+	const authors = new Set();
+	for (const log of gitLog) {
+		authors.add(log.author);
+	}
 
 	/** @type {Intl.DateTimeFormatOptions} */
 	const formattedOptions = {
@@ -29,9 +33,9 @@
 			>
 				<span>작성자</span>
 				<ul>
-					{#each gitLog as log}
+					{#each authors as author}
 						<li>
-							{log.author}
+							{author}
 						</li>
 					{/each}
 				</ul>
