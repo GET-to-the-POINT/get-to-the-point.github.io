@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ecfacc9b99a10588",
+        "id": "396804c3a68f76a3",
         "type": "tabs",
         "children": [
           {
-            "id": "6b22de550996220c",
+            "id": "37bfcf1689135a55",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "static/posts/backstage/250416.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "250416"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 230.5
   },
   "right": {
     "id": "2358a3d360caceff",
@@ -191,11 +190,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6b22de550996220c",
+  "active": "37bfcf1689135a55",
   "lastOpenFiles": [
-    "static/posts/backstage/250415.md",
     "static/posts/backstage/새로운 첫걸음.md",
+    "static/posts/backstage/250416.md",
     "static/posts/backstage/first-week.md",
+    "static/posts/backstage/250415.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
     "package-lock.json",
     "node_modules/vite/node_modules/fsevents/build/config.gypi",
     "node_modules/vite/node_modules/fsevents/build",
