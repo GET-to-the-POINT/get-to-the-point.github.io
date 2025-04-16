@@ -11,14 +11,14 @@
             "id": "6b22de550996220c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "static/posts/backstage/250415.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "250415"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 230.5,
+    "collapsed": true
   },
   "right": {
     "id": "2358a3d360caceff",
@@ -167,8 +168,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -192,21 +193,23 @@
   },
   "active": "6b22de550996220c",
   "lastOpenFiles": [
-    "static/posts/backstage/first-week.md",
-    "static/posts/backstage/새로운 첫걸음.md",
     "static/posts/backstage/250415.md",
+    "static/posts/backstage/새로운 첫걸음.md",
+    "static/posts/backstage/first-week.md",
+    "package-lock.json",
+    "node_modules/vite/node_modules/fsevents/build/config.gypi",
+    "node_modules/vite/node_modules/fsevents/build",
+    "node_modules/fsevents/build/config.gypi",
+    "node_modules/fsevents/build",
+    "node_modules/pretendard/subset_glyphs.txt",
+    "node_modules/pretendard/subset.js",
+    "node_modules/pretendard/package.json",
+    "node_modules/pretendard/docs/ja/README.md",
+    "node_modules/pretendard/docs/en/README.md",
+    "node_modules/pretendard/docs/ja",
+    "node_modules/pretendard/docs/en",
     "static/favicon.png",
     "static/posts/backstage/Test2.md",
-    "node_modules/@inlang",
-    "node_modules/@shikijs",
-    "node_modules/@lucide",
-    "node_modules/@vitest",
-    "node_modules/@testing-library",
-    "node_modules/@tailwindcss",
-    "node_modules/@sveltejs",
-    "node_modules/@storybook",
-    "node_modules/@playwright",
-    "node_modules/@chromatic-com",
     "static/members/hyeri.png",
     "static/members/yurim.png",
     "static/members/wooyeon.png",
