@@ -2,7 +2,8 @@
 	import { Card } from '$lib/components/ui/card';
 	import { getLocale } from '$lib/paraglide/runtime.js';
 	import { datetime } from '$lib/paraglide/registry.js';
-	import { Calendar1, CalendarClock } from '@lucide/svelte';
+	import Calendar1Icon from '@lucide/svelte/icons/calendar-1';
+	import CalendarClockIcon from '@lucide/svelte/icons/calendar-clock';
 
 	let { meta, gitLog, value } = $props();
 	const authors = new Set();
@@ -47,12 +48,12 @@
 
 	<div class="text-end text-sm text-gray-700 [&>div]:mb-1 [&>div>*:first-child]:inline-block">
 		<div>
-			<Calendar1 />
+			<Calendar1Icon />
 			<span>최초 작성 : {datetime(getLocale(), gitLog.at(0).datetime, formattedOptions)}</span>
 		</div>
 		{#if gitLog.at(-1).datetime !== gitLog.at(0).datetime}
 			<div>
-				<CalendarClock />
+				<CalendarClockIcon />
 				<span>최종 수정 : {datetime(getLocale(), gitLog.at(-1).datetime, formattedOptions)}</span>
 			</div>
 		{/if}

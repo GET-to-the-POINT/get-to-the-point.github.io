@@ -1,7 +1,7 @@
 <script>
 	import { Card, CardContent, CardHeader } from '$lib/components/ui/card';
 	import { Avatar, AvatarFallback, AvatarImage } from '$lib/components/ui/avatar';
-	import { GithubIcon } from '@lucide/svelte';
+	import GithubIcon from '@lucide/svelte/icons/github';
 
 	/**
 	 * @typedef {Object} TeamMember
