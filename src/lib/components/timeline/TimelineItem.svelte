@@ -6,7 +6,7 @@
 	import CalendarClockIcon from '@lucide/svelte/icons/calendar-clock';
 
 	let { meta, gitLog, value } = $props();
-	const authors = new Set(gitLog.map(log => log.author));
+	const authors = new Set(gitLog.map((log) => log.author));
 
 	/** @type {Intl.DateTimeFormatOptions} */
 	const formattedOptions = {
@@ -27,7 +27,7 @@
 			</h1>
 
 			<div
-				class="[&_li:not(:last-child)]:mr-2 text-right text-gray-700 [&>span]:mr-2 [&>span]:text-sm [&>ul]:inline-block [&>ul>li]:inline-block [&>ul>li]:rounded-full [&>ul>li]:bg-gray-200 [&>ul>li]:px-2 [&>ul>li]:py-1 [&>ul>li]:text-xs [&>ul>li]:font-semibold"
+				class="text-right text-gray-700 [&>ul>li:not(:last-child)]:mr-2 [&>span]:mr-2 [&>span]:text-sm [&>ul]:inline-block [&>ul>li]:inline-block [&>ul>li]:rounded-full [&>ul>li]:bg-gray-200 [&>ul>li]:px-2 [&>ul>li]:py-1 [&>ul>li]:text-xs [&>ul>li]:font-semibold"
 			>
 				<span>작성자</span>
 				<ul>

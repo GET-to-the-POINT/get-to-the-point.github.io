@@ -1,223 +1,223 @@
 {
-  "main": {
-    "id": "e58e2de42bff7051",
-    "type": "split",
-    "children": [
-      {
-        "id": "396804c3a68f76a3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "37bfcf1689135a55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "static/posts/backstage/250416.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "250416"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "vertical"
-  },
-  "left": {
-    "id": "791e687f590147f3",
-    "type": "split",
-    "children": [
-      {
-        "id": "8de1b1a99c6019f2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c1c014a140cf2e82",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
-            "id": "abb04afeef686b3a",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "검색"
-            }
-          },
-          {
-            "id": "10dce65b07ad1400",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "북마크"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 230.5
-  },
-  "right": {
-    "id": "2358a3d360caceff",
-    "type": "split",
-    "children": [
-      {
-        "id": "4e6b3fb3b5ce419c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3410a1f0b9a1624d",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "static/posts/backstage/first-week.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "first-week 의 백링크"
-            }
-          },
-          {
-            "id": "f2440389e541aa35",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "static/posts/backstage/first-week.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "first-week 의 나가는 링크"
-            }
-          },
-          {
-            "id": "96d37bcb6fab8265",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "태그"
-            }
-          },
-          {
-            "id": "494c6612db17c8f5",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "static/posts/backstage/first-week.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "first-week 의 개요"
-            }
-          },
-          {
-            "id": "38201857ccf8b12e",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "80ecc89c4ecfd711",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          }
-        ],
-        "currentTab": 4
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300
-  },
-  "left-ribbon": {
-    "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-git:Open Git source control": false
-    }
-  },
-  "active": "37bfcf1689135a55",
-  "lastOpenFiles": [
-    "static/posts/backstage/250415.md",
-    "static/posts/backstage/새로운 첫걸음.md",
-    "static/posts/backstage/250416.md",
-    "static/posts/backstage/first-week.md",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "package-lock.json",
-    "node_modules/vite/node_modules/fsevents/build/config.gypi",
-    "node_modules/vite/node_modules/fsevents/build",
-    "node_modules/fsevents/build/config.gypi",
-    "node_modules/fsevents/build",
-    "node_modules/pretendard/subset_glyphs.txt",
-    "node_modules/pretendard/subset.js",
-    "node_modules/pretendard/package.json",
-    "node_modules/pretendard/docs/ja/README.md",
-    "node_modules/pretendard/docs/en/README.md",
-    "node_modules/pretendard/docs/ja",
-    "node_modules/pretendard/docs/en",
-    "static/favicon.png",
-    "static/posts/backstage/Test2.md",
-    "static/members/hyeri.png",
-    "static/members/yurim.png",
-    "static/members/wooyeon.png",
-    "static/members/taehui.png",
-    "static/posts/backstage/hello.md",
-    "static/posts/backstage/hello2.md",
-    "static/posts/backstage/hello3.md"
-  ]
+	"main": {
+		"id": "e58e2de42bff7051",
+		"type": "split",
+		"children": [
+			{
+				"id": "396804c3a68f76a3",
+				"type": "tabs",
+				"children": [
+					{
+						"id": "37bfcf1689135a55",
+						"type": "leaf",
+						"state": {
+							"type": "markdown",
+							"state": {
+								"file": "static/posts/backstage/250416.md",
+								"mode": "source",
+								"source": false
+							},
+							"icon": "lucide-file",
+							"title": "250416"
+						}
+					}
+				]
+			}
+		],
+		"direction": "vertical"
+	},
+	"left": {
+		"id": "791e687f590147f3",
+		"type": "split",
+		"children": [
+			{
+				"id": "8de1b1a99c6019f2",
+				"type": "tabs",
+				"children": [
+					{
+						"id": "c1c014a140cf2e82",
+						"type": "leaf",
+						"state": {
+							"type": "file-explorer",
+							"state": {
+								"sortOrder": "alphabetical",
+								"autoReveal": false
+							},
+							"icon": "lucide-folder-closed",
+							"title": "Files"
+						}
+					},
+					{
+						"id": "abb04afeef686b3a",
+						"type": "leaf",
+						"state": {
+							"type": "search",
+							"state": {
+								"query": "",
+								"matchingCase": false,
+								"explainSearch": false,
+								"collapseAll": false,
+								"extraContext": false,
+								"sortOrder": "alphabetical"
+							},
+							"icon": "lucide-search",
+							"title": "검색"
+						}
+					},
+					{
+						"id": "10dce65b07ad1400",
+						"type": "leaf",
+						"state": {
+							"type": "bookmarks",
+							"state": {},
+							"icon": "lucide-bookmark",
+							"title": "북마크"
+						}
+					}
+				]
+			}
+		],
+		"direction": "horizontal",
+		"width": 230.5
+	},
+	"right": {
+		"id": "2358a3d360caceff",
+		"type": "split",
+		"children": [
+			{
+				"id": "4e6b3fb3b5ce419c",
+				"type": "tabs",
+				"children": [
+					{
+						"id": "3410a1f0b9a1624d",
+						"type": "leaf",
+						"state": {
+							"type": "backlink",
+							"state": {
+								"file": "static/posts/backstage/first-week.md",
+								"collapseAll": false,
+								"extraContext": false,
+								"sortOrder": "alphabetical",
+								"showSearch": false,
+								"searchQuery": "",
+								"backlinkCollapsed": false,
+								"unlinkedCollapsed": true
+							},
+							"icon": "links-coming-in",
+							"title": "first-week 의 백링크"
+						}
+					},
+					{
+						"id": "f2440389e541aa35",
+						"type": "leaf",
+						"state": {
+							"type": "outgoing-link",
+							"state": {
+								"file": "static/posts/backstage/first-week.md",
+								"linksCollapsed": false,
+								"unlinkedCollapsed": true
+							},
+							"icon": "links-going-out",
+							"title": "first-week 의 나가는 링크"
+						}
+					},
+					{
+						"id": "96d37bcb6fab8265",
+						"type": "leaf",
+						"state": {
+							"type": "tag",
+							"state": {
+								"sortOrder": "frequency",
+								"useHierarchy": true,
+								"showSearch": false,
+								"searchQuery": ""
+							},
+							"icon": "lucide-tags",
+							"title": "태그"
+						}
+					},
+					{
+						"id": "494c6612db17c8f5",
+						"type": "leaf",
+						"state": {
+							"type": "outline",
+							"state": {
+								"file": "static/posts/backstage/first-week.md",
+								"followCursor": false,
+								"showSearch": false,
+								"searchQuery": ""
+							},
+							"icon": "lucide-list",
+							"title": "first-week 의 개요"
+						}
+					},
+					{
+						"id": "38201857ccf8b12e",
+						"type": "leaf",
+						"state": {
+							"type": "git-view",
+							"state": {},
+							"icon": "git-pull-request",
+							"title": "Source Control"
+						}
+					},
+					{
+						"id": "80ecc89c4ecfd711",
+						"type": "leaf",
+						"state": {
+							"type": "advanced-tables-toolbar",
+							"state": {},
+							"icon": "lucide-file",
+							"title": "Plugin no longer active"
+						}
+					}
+				],
+				"currentTab": 4
+			}
+		],
+		"direction": "horizontal",
+		"width": 300
+	},
+	"left-ribbon": {
+		"hiddenItems": {
+			"switcher:Open quick switcher": false,
+			"graph:Open graph view": false,
+			"canvas:Create new canvas": false,
+			"daily-notes:Open today's daily note": false,
+			"templates:Insert template": false,
+			"command-palette:Open command palette": false,
+			"table-editor-obsidian:Advanced Tables Toolbar": false,
+			"obsidian-git:Open Git source control": false
+		}
+	},
+	"active": "37bfcf1689135a55",
+	"lastOpenFiles": [
+		"static/posts/backstage/250415.md",
+		"static/posts/backstage/새로운 첫걸음.md",
+		"static/posts/backstage/250416.md",
+		"static/posts/backstage/first-week.md",
+		"Untitled 1.canvas",
+		"Untitled.canvas",
+		"package-lock.json",
+		"node_modules/vite/node_modules/fsevents/build/config.gypi",
+		"node_modules/vite/node_modules/fsevents/build",
+		"node_modules/fsevents/build/config.gypi",
+		"node_modules/fsevents/build",
+		"node_modules/pretendard/subset_glyphs.txt",
+		"node_modules/pretendard/subset.js",
+		"node_modules/pretendard/package.json",
+		"node_modules/pretendard/docs/ja/README.md",
+		"node_modules/pretendard/docs/en/README.md",
+		"node_modules/pretendard/docs/ja",
+		"node_modules/pretendard/docs/en",
+		"static/favicon.png",
+		"static/posts/backstage/Test2.md",
+		"static/members/hyeri.png",
+		"static/members/yurim.png",
+		"static/members/wooyeon.png",
+		"static/members/taehui.png",
+		"static/posts/backstage/hello.md",
+		"static/posts/backstage/hello2.md",
+		"static/posts/backstage/hello3.md"
+	]
 }

@@ -16891,19 +16891,17 @@ async function GO({
 }) {
 	try {
 		C('http', e), C('url', a);
-		let l = await xs
-				.getRemoteHelperFor({ url: a })
-				.discover({
-					http: e,
-					onAuth: t,
-					onAuthSuccess: r,
-					onAuthFailure: n,
-					corsProxy: i,
-					service: o ? 'git-receive-pack' : 'git-upload-pack',
-					url: a,
-					headers: s,
-					protocolVersion: 1
-				}),
+		let l = await xs.getRemoteHelperFor({ url: a }).discover({
+				http: e,
+				onAuth: t,
+				onAuthSuccess: r,
+				onAuthFailure: n,
+				corsProxy: i,
+				service: o ? 'git-receive-pack' : 'git-upload-pack',
+				url: a,
+				headers: s,
+				protocolVersion: 1
+			}),
 			u = { capabilities: [...l.capabilities] };
 		for (let [f, d] of l.refs) {
 			let h = f.split('/'),
@@ -16956,19 +16954,17 @@ async function zO({
 }) {
 	try {
 		C('http', e), C('url', a);
-		let u = await xs
-			.getRemoteHelperFor({ url: a })
-			.discover({
-				http: e,
-				onAuth: t,
-				onAuthSuccess: r,
-				onAuthFailure: n,
-				corsProxy: i,
-				service: o ? 'git-receive-pack' : 'git-upload-pack',
-				url: a,
-				headers: s,
-				protocolVersion: c
-			});
+		let u = await xs.getRemoteHelperFor({ url: a }).discover({
+			http: e,
+			onAuth: t,
+			onAuthSuccess: r,
+			onAuthFailure: n,
+			corsProxy: i,
+			service: o ? 'git-receive-pack' : 'git-upload-pack',
+			url: a,
+			headers: s,
+			protocolVersion: c
+		});
 		if (u.protocolVersion === 2)
 			return { protocolVersion: u.protocolVersion, capabilities: u.capabilities2 };
 		let f = {};
