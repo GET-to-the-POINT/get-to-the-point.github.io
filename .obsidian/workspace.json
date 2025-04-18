@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "396804c3a68f76a3",
+        "id": "ecfacc9b99a10588",
         "type": "tabs",
         "children": [
           {
-            "id": "37bfcf1689135a55",
+            "id": "6b22de550996220c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "static/posts/backstage/250416.md",
+                "file": "static/posts/backstage/250417.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "250416"
+              "title": "250417"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 300
   },
   "right": {
     "id": "2358a3d360caceff",
@@ -167,8 +167,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -180,36 +180,35 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37bfcf1689135a55",
+  "active": "6b22de550996220c",
   "lastOpenFiles": [
-    "static/posts/backstage/250415.md",
-    "static/posts/backstage/새로운 첫걸음.md",
     "static/posts/backstage/250416.md",
-    "static/posts/backstage/first-week.md",
-    "Untitled 1.canvas",
+    "static/posts/backstage/250415.md",
+    "static/posts/backstage/250414.md",
+    "static/posts/backstage/250417.md",
+    "node_modules/@lucide",
+    "node_modules/@tailwindcss",
+    "node_modules/@sveltejs",
     "Untitled.canvas",
-    "package-lock.json",
-    "node_modules/vite/node_modules/fsevents/build/config.gypi",
-    "node_modules/vite/node_modules/fsevents/build",
-    "node_modules/fsevents/build/config.gypi",
-    "node_modules/fsevents/build",
-    "node_modules/pretendard/subset_glyphs.txt",
-    "node_modules/pretendard/subset.js",
-    "node_modules/pretendard/package.json",
-    "node_modules/pretendard/docs/ja/README.md",
-    "node_modules/pretendard/docs/en/README.md",
-    "node_modules/pretendard/docs/ja",
-    "node_modules/pretendard/docs/en",
+    "Untitled 1.canvas",
+    "src/lib/paraglide/messages/_index.js",
+    "src/lib/paraglide/messages/ko.js",
+    "src/lib/paraglide/messages/en.js",
+    "src/lib/paraglide/server.js",
+    "src/lib/paraglide/runtime.js",
+    "src/lib/paraglide/registry.js",
+    "src/lib/paraglide/messages.js",
+    "static/posts/backstage/first-week.md",
     "static/favicon.png",
     "static/posts/backstage/Test2.md",
     "static/members/hyeri.png",
