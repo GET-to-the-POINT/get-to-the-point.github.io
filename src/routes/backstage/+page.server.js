@@ -6,6 +6,6 @@ export async function load({ url }) {
 	const category = await Category.getCategory(pathname)?.toSerialize();
 
 	return {
-		posts: category.allPosts,
+		posts: category.allPosts
 	};
 }

@@ -2,7 +2,9 @@
 	import { page } from '$app/state';
 	import { deLocalizeHref } from '$lib/paraglide/runtime.js';
 
-	import { ContactIcon, HouseIcon, ScrollTextIcon } from '@lucide/svelte';
+	import ContactIcon from '@lucide/svelte/icons/contact';
+	import HouseIcon from '@lucide/svelte/icons/house';
+	import ScrollTextIcon from '@lucide/svelte/icons/scroll-text';
 </script>
 
 <header
