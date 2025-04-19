@@ -17,31 +17,29 @@
 	};
 </script>
 
-<div class="[&>div:first-child]:mb-2">
-	<div>
-		<Card
-			class="overflow-hidden [&_h1]:font-extrabold [&>*]:px-4 [&>*:first-child]:pt-4 [&>*:last-child]:pb-4"
+<li class="[&>div:first-child]:mb-2">
+	<Card
+		class="overflow-hidden [&_h1]:font-extrabold [&>*]:px-4 [&>*:first-child]:pt-4 [&>*:last-child]:pb-4"
+	>
+		<h1>
+			{meta.title}
+		</h1>
+
+		<div
+			class="text-right text-gray-700 [&>span]:mr-2 [&>span]:text-sm [&>ul]:inline-block [&>ul>li]:inline-block [&>ul>li]:rounded-full [&>ul>li]:bg-gray-200 [&>ul>li]:px-2 [&>ul>li]:py-1 [&>ul>li]:text-xs [&>ul>li]:font-semibold [&>ul>li:not(:last-child)]:mr-2"
 		>
-			<h1>
-				{meta.title}
-			</h1>
+			<span>작성자</span>
+			<ul>
+				{#each authors as author}
+					<li>
+						{author}
+					</li>
+				{/each}
+			</ul>
+		</div>
 
-			<div
-				class="text-right text-gray-700 [&>ul>li:not(:last-child)]:mr-2 [&>span]:mr-2 [&>span]:text-sm [&>ul]:inline-block [&>ul>li]:inline-block [&>ul>li]:rounded-full [&>ul>li]:bg-gray-200 [&>ul>li]:px-2 [&>ul>li]:py-1 [&>ul>li]:text-xs [&>ul>li]:font-semibold"
-			>
-				<span>작성자</span>
-				<ul>
-					{#each authors as author}
-						<li>
-							{author}
-						</li>
-					{/each}
-				</ul>
-			</div>
-
-			{@html value}
-		</Card>
-	</div>
+		{@html value}
+	</Card>
 
 	<div class="text-end text-sm text-gray-700 [&>div]:mb-1 [&>div>*:first-child]:inline-block">
 		<div>
@@ -55,4 +53,4 @@
 			</div>
 		{/if}
 	</div>
-</div>
+</li>
