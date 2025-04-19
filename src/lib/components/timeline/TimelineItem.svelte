@@ -17,9 +17,10 @@
 	};
 </script>
 
-<li class="[&>div:first-child]:mb-2">
+<li class="[&>*:first-child]:mb-2">
 	<Card
-		class="overflow-hidden [&_h1]:font-extrabold [&>*]:px-4 [&>*:first-child]:pt-4 [&>*:last-child]:pb-4"
+		as="section"
+		class="[&_h1]:font-extrabold [&>*]:px-4 [&>*:first-child]:pt-4 [&>*:last-child]:pb-4"
 	>
 		<h1>
 			{meta.title}
